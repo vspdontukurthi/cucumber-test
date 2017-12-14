@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="feature.salary.SalaryTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="feature.salary.SalaryTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib"/>
@@ -67,5 +67,5 @@
   <testcase classname="Scenario: Modify an employee&apos;s salary" name="Given the salary management system is initialized with the following data" time="0"/>
   <testcase classname="Scenario: Modify an employee&apos;s salary" name="When the boss increases the salary for the employee with id &apos;3&apos; by 5%" time="0"/>
   <testcase classname="Scenario: Modify an employee&apos;s salary" name="Then the payroll for the employee with id &apos;3&apos; should display a salary of 57750" time="0"/>
-  <testcase classname="Scenario: Modify an employee&apos;s salary" name="Scenario: Modify an employee&apos;s salary" time="0.001"/>
+  <testcase classname="Scenario: Modify an employee&apos;s salary" name="Scenario: Modify an employee&apos;s salary" time="0"/>
 </testsuite>
