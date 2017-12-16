@@ -7,7 +7,8 @@ import cucumber.api.junit.Cucumber;
 
 //test for salary
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin = {"pretty", "html:target/cucumber", "json:target/salary-cucumber.json" }) 
+@CucumberOptions(strict = false, features = "features", format = { "pretty",
+"json:target/cucumber.json" }, tags = { "~@ignore" })
 public class SalaryTest {
 
 }

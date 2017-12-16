@@ -1,13 +1,18 @@
-pipeline {agent any
-    stages {
-        stage('Build') { 
-            steps {
-                sh 'mvn clean install package'
-                 dir("../builds/${BUILD_NUMBER}/") {
-        sh "cp -r cucumber-html-reports $WORKSPACE"
-    }
+ pipeline {
+     
+    agent any
 
-    archive "cucumber-html-reports/*"
+    stages {
+        stage('Build') {
+            steps {
+                //run your build
+                sh 'mvn clean verify'
+            }
+            post {
+                always {
+                    //generate cucumber reports
+                    cucumber '**/*.json'
+                }
             }
         }
     }
