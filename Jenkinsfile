@@ -1,12 +1,12 @@
 pipeline {agent any
     stages {
-        stage('Build') {
-            dir("../builds/${BUILD_NUMBER}/") {
+        stage('Build') { 
+            steps {
+             dir("../builds/${BUILD_NUMBER}/") {
         sh "cp -r cucumber-html-reports $WORKSPACE"
     }
 
-    archive "cucumber-html-reports/*" 
-            steps {
+    archive "cucumber-html-reports/*"
                 sh 'mvn clean install package'
             }
         }
