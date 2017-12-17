@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: feature.salary.SalaryTest
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 8, Time elapsed: 0.037 sec
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 8, Time elapsed: 0.031 sec

@@ -6,7 +6,7 @@
         stage('Build') {
             steps {
                 //run your build
-                sh 'mvn clean verify'
+                sh 'mvn clean install'
             }
             post {
                 always {

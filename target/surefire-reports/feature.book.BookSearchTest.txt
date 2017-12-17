@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: feature.book.BookSearchTest
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 0.408 sec
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 0.475 sec
