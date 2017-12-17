@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="13" failures="0" name="feature.salary.SalaryTest" time="0.015" errors="0" skipped="8">
+<testsuite tests="4" failures="0" name="feature.salary.SalaryTest" time="0" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib"/>
@@ -26,15 +26,13 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.5.2/libexec/bin/m2.conf"/>
+    <property name="classworlds.conf" value="/Users/spra37/Documents/nationwide_ws/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf3112744963994851081.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/spra37/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="maven.conf" value="/usr/local/Cellar/maven/3.5.2/libexec/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.12.6"/>
-    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.5.2/libexec/lib/jansi-native"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="user.home" value="/Users/spra37"/>
     <property name="user.timezone" value="Europe/London"/>
@@ -46,7 +44,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s /usr/local/Cellar/maven/3.5.2/libexec/conf/settings.xml install"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -64,68 +62,6 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="Scenario: Search books by publication year" name="Given a book with the title &apos;One good book&apos;, written by &apos;Anonymous&apos;, published in 14 March 2013" time="0.001">
-    <skipped/>
-    <system-out>
-  Scenario: Modify an employee&apos;s salary                                            &amp;#27;[90m# salary/salary_management.feature:3&amp;#27;[0m
-    &amp;#27;[33mGiven &amp;#27;[0m&amp;#27;[33mthe salary management system is initialized with the following data&amp;#27;[0m
-    &amp;#27;[33mWhen &amp;#27;[0m&amp;#27;[33mthe boss increases the salary for the employee with id &apos;3&apos; by 5%&amp;#27;[0m
-    &amp;#27;[33mThen &amp;#27;[0m&amp;#27;[33mthe payroll for the employee with id &apos;3&apos; should display a salary of 57750&amp;#27;[0m
-
-2 Scenarios (&amp;#27;[33m1 undefined&amp;#27;[0m, &amp;#27;[32m1 passed&amp;#27;[0m)
-10 Steps (&amp;#27;[33m3 undefined&amp;#27;[0m, &amp;#27;[32m7 passed&amp;#27;[0m)
-0m0.160s
-
-
-You can implement missing steps with the snippets below:
-
-@Given(&quot;^the salary management system is initialized with the following data$&quot;)
-public void the_salary_management_system_is_initialized_with_the_following_data(DataTable arg1) throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-    // For automatic transformation, change DataTable to one of
-    // List&lt;YourType&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt; or Map&lt;K,V&gt;.
-    // E,K,V must be a scalar (String, Integer, Date, enum etc)
-    throw new PendingException();
-}
-
-@When(&quot;^the boss increases the salary for the employee with id &apos;(\\d+)&apos; by (\\d+)%$&quot;)
-public void the_boss_increases_the_salary_for_the_employee_with_id_by(int arg1, int arg2) throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
-
-@Then(&quot;^the payroll for the employee with id &apos;(\\d+)&apos; should display a salary of (\\d+)$&quot;)
-public void the_payroll_for_the_employee_with_id_should_display_a_salary_of(int arg1, int arg2) throws Throwable {
-    // Write code here that turns the phrase above into concrete actions
-    throw new PendingException();
-}
-
-Feature: Book search
-  To allow a customer to find his favourite books quickly, the library must offer multiple ways to search for a book.
-</system-out>
-  </testcase>
-  <testcase classname="Scenario: Search books by publication year" name="And another book with the title &apos;Some other book&apos;, written by &apos;Tim Tomson&apos;, published in 23 August 2014" time="0.001">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Search books by publication year" name="And another book with the title &apos;How to cook a dino&apos;, written by &apos;Fred Flintstone&apos;, published in 01 January 2012" time="0.001">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Search books by publication year" name="When the customer searches for books published between 2013 and 2014" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Search books by publication year" name="Then 2 books should have been found" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Search books by publication year" name="And Book 1 should have the title &apos;Some other book&apos;" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Search books by publication year" name="And Book 2 should have the title &apos;One good book&apos;" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Search books by publication year" name="Scenario: Search books by publication year" time="0.002">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Search books by publication year" name="Scenario: Search books by publication year" time="0.002"/>
   <testcase classname="Scenario: Modify an employee&apos;s salary" name="Given the salary management system is initialized with the following data" time="0"/>
   <testcase classname="Scenario: Modify an employee&apos;s salary" name="When the boss increases the salary for the employee with id &apos;3&apos; by 5%" time="0"/>
   <testcase classname="Scenario: Modify an employee&apos;s salary" name="Then the payroll for the employee with id &apos;3&apos; should display a salary of 57750" time="0"/>

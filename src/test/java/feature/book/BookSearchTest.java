@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(strict = false, features = "features", format = { "pretty",
+@CucumberOptions(strict = false, features = "features/book", format = { "pretty",
 "json:target/cucumber.json" }, tags = { "~@ignore" })
 public class BookSearchTest {
 }
